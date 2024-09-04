@@ -1,8 +1,8 @@
 import { Webhook } from 'svix'
 import { headers } from 'next/headers'
 import { WebhookEvent } from '@clerk/nextjs/server'
-import { db } from '@/db'
-import { users } from '@/db/schema'
+import { db } from '../../../db'
+import { users } from '../../../db/schema'
 import { nanoid } from 'nanoid'
 import argon2 from 'argon2'
 
